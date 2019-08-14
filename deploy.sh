@@ -6,6 +6,6 @@ cd site
 git init
 git add .
 git commit -m "Deploy to GitHub Pages"
-git push --force --quiet "git@github.com:timothypratley/asciidoctor-revealjs-klipse.git" master:gh-pages
+git push --force --quiet "git@github.com:bhugueney/asciidoctor-revealjs-klipse.git" master:gh-pages
 rm -fr .git
-echo "Deployed to https://timothypratley.github.io/asciidoctor-revealjs-klipse"
+echo "Deployed to https://bhugueney.github.io/asciidoctor-revealjs-klipse"
