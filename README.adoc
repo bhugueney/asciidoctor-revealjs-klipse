@@ -4,7 +4,7 @@ Create slides from markdown that contain interactive code snippets.
 
 See the https://bhugueney.github.io/asciidoctor-revealjs-klipse/slides.html[live example].
 
-(testing travis build)
+[![Build Status](https://travis-ci.org/bhugueney/asciidoctor-revealjs-klipse.svg?branch=master)](https://travis-ci.org/bhugueney/asciidoctor-revealjs-klipse)
 
 Notice that you can click into the code blocks and change them.
 It re-evaluates the code on the fly.
