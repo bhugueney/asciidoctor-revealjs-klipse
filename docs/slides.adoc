@@ -17,14 +17,22 @@ Press the "right arrow" key to move to the next slide.
 This text will only show in the speaker view mode.
 
 
-== ClojureScript
+== ClojureScript 1/2
 
 [source.eval-clojure, clojure]
-(+ 1 2)
+(defn test-f [x]
+  (inc x))
 
 TIP: Try changing the numbers in the top box.
 The answer in the bottom box is evaluated immediately.
 
+== ClojureScript 2/2
+
+[source.eval-clojure, clojure]
+(test-f 2)
+
+TIP: Try changing the numbers in the top box.
+The answer in the bottom box is evaluated immediately.
 
 == JavaScript
 
