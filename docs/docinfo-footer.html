@@ -2,11 +2,15 @@
 <script>
 
 
-
-   window.klipse_settings.editor_type = "html";
-
-
     window.klipse_settings = {
+	            codemirror_options_in: {
+            lineWrapping: true,
+            autoCloseBrackets: true
+        },
+        codemirror_options_out: {
+            lineWrapping: true
+        },
+  
         selector: '.eval-clojure',
 	selector_eval_js: '.eval-javascript',
 	selector_eval_html: '.eval-html',
