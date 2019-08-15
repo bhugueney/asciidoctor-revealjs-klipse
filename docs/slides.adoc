@@ -16,6 +16,33 @@ Press the "right arrow" key to move to the next slide.
 [NOTE.speaker]
 This text will only show in the speaker view mode.
 
+== SQL 1/3
+
+[source.eval-sql, sql]
+CREATE TABLE play (game, points, day)
+
+== SQL 2/3
+
+[source.eval-sql, sql]
+INSERT INTO
+  play
+VALUES
+  ("go", 500, "monday"),
+  ("go", 300, "tuesday"),
+  ("chess", 1250, "tuesday"),
+  ("chess", 1250, "tuesday"),
+  ("chess", 50, "sunday"),
+  ("checkers", 100, "monday"),
+  ("chess", 3200, "saturday");
+
+== SQL 2/3
+
+[source.eval-sql, sql]
+SELECT
+  *
+from
+  play;
+
 
 == ClojureScript 1/2
 
